@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Task 6</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* Internal CSS */
+    .card {
+
+      width: 220px;
+      height: 350px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      border-radius: 0px;
+      transition: transform 0.3s;
+
+
+    }
+
+    .card:hover {
+      transform: translateY(-0px);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .card-img {
+      width: 258px;
+      height: 99.7;
+
+    }
+
+    .card-body {
+
+      padding: 16px;
+    }
+
+    .footer {
+     
+      width: 100%;
+      height: 510px;
+      margin: 10px;
+    }
+
+    button {
+      background-color: #E9EBEE;
+      border: #78838c;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: sans-serif;
+      display: inline-block;
+      font-size: 14px;
+      margin: 5px 3px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    button:hover {
+      background-color: #78838c;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-4 mt-3"><img src="./assets/pizzahut/logo.png" width="128" height="24.76"></div>
+    <div class="col-6"></div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col-1" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px;"></div>
+    <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center;">
+     <p class="nah" style="margin: 10px;">Pizzas</p>
+    </div>
+    <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center">
+    <p class="nah" style="margin: 10px;">Sides</p>
+    </div>
+    <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center">
+    <p class="nah" style="margin: 10px;">Desserts</p>
+    </div>
+    <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center">
+    <p class="nah" style="margin: 10px;">Drinks</p>
+    </div>
+    <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center;background-image: url(https://www.pizzahut.co.in/_next/static/static/images/navh-highlighted-background.945fe766d47932d6526b3ad6015cd1c3.jpg);
+      background-size: auto 100%;padding: 12px;">
+    <p class="nah"> Deals</p>
+    </div>
+    <div class="col-1" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center"></div>
+  </div>
+
+  <!-- header ends -->
+
+  <div class="container-fluid ">
+    <div class="bg-image" style="background-image: url('./assets/pizzahut/bgimage.jpg');height: 200vh;">
+      <h1 style="text-align: center;">Our Deals</h1>
+      <p style="text-align: center; margin: 30px;">Check out the latest meal deals available from Pizza Hut
+      </p>
+
+      <div class="row">
+        <div class="col-2"></div>
+
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text"> Choose from 2 of your favorite personal pizza with new San Fransisco Crust
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Medium Pizzas starting at 649</h4>
+              <p class="card-text">Choose from 2 of your favorite personal pizza with new San Fransisco Crust
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/3.jpg " alt=" Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Flavour Fun Box of 4</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Medium Pizzas starting at 649</h4>
+              <p class="card-text">Choose from 2 of your favorite personal pizza with new San Fransisco Crust
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <!-- row 1 ends -->
+
+      <div class="row mt-2">
+        <div class="col-2"></div>
+
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Medium Pizzas starting at 649</h4>
+              <p class="card-text">Choose from 2 of your favorite personal pizza with new San Fransisco Crust
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/3.jpg " alt=" Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/4.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <!-- row 2 ends -->
+
+      <div class="row mt-2">
+        <div class="col-2"></div>
+
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;padding-left: 16px;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2 ">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/3.jpg " alt=" Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <img class="card-img" src="./assets/pizzahut/4.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+              <p class="card-text">Epic combination of signature pan crust, delicious paneer & veg momos
+              </p><br>
+              <a href="#" class="btn btn-success"
+                style="width: 100%;justify-content: center;align-items: center ;"><b>View
+                  more</b></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <!-- row 3 ends -->
+
+      <div class="container-fluid bg-black mt-4">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"><br> <br><b style="color: white;font-family: sans-serif;padding: 32px;">
+              Order Now</b>
+            <ul style="color: white;font-family: sans-serif; list-style: none;font-size: 14px;margin: 10px;">
+              <li>Deals</li>
+              <li>Pizza</li>
+              <li>Sides</li>
+              <li>Drinks</li>
+              <li>Desserts</li>
+            </ul>
+          </div>
+          <div class="col-2"><br><br><b style="color: white;font-family: sans-serif;padding: 32px;">
+              About us</b>
+            <ul style="color: white;font-family: sans-serif; list-style: none;font-size: 14px;margin: 10px;">
+              <li>About us</li>
+              <li>Contactless delivery</li>
+              <li>Nutrition</li>
+            </ul>
+          </div>
+          <div class="col-2"><br> <br><b style="color: white;font-family: sans-serif;padding: 32px;">
+              Our
+              Policies</b>
+            <ul style="color: white;font-family: sans-serif; list-style: none;font-size: 14px;margin: 10px;">
+              <li>Terms & Conditions</li>
+              <li>FAQs&help</li>
+            </ul>
+          </div>
+          <div class="col-2"><br> <br><b style="color: white;font-family: sans-serif;padding: 32px;">Visit
+              Pizza Hut</b>
+            <ul style="color: white;font-family: sans-serif; list-style: none;font-size: 14px;margin: 10px;">
+              <li>Locate a store</li>
+              <li>Global Blog</li>
+            </ul>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+        <!-- row 1 footer ends -->
+
+        <div class="row mt-4">
+          <div class="col-4"></div>
+          <div class="col-2"><img src="./assets/pizzahut/ios.svg" width="200px"></div>
+          <div class="col-2"><img src="./assets/pizzahut/android.png" width="200px"></div>
+          <div class="col-4"></div>
+        </div>
+
+        <!-- row 2 footer ends -->
+
+        <div class="row mt-4">
+          <div class="col-6 text-center mt-4"><span style="font-size: 14px;color: white;font-family: sans-serif;">Help
+              us in serving you better&nbsp;<button>Give Feedback</button>
+            </span></div>
+          <div class="col-6">
+            <ul style="padding-left: 200px;">
+              <h4 style="color: white;margin: 10px;font-size: 18px;padding-left: 8px;">Follow Us</h4>
+              <li class="list-inline-item"><img
+                  src="https://www.pizzahut.co.in/_next/static/static/images/social/white-facebook.7cce5c98cdf27ef51601f3650f73b465.png"
+                  width="20px" height=> </li></a> 
+              <li class="list-inline-item"> <img
+                  src="https://www.pizzahut.co.in/_next/static/static/images/social/white-twitter.ef766a459cb51bbdaf9b24eaa5d21289.png"
+                  width="20px" height=> </li>
+              <li class="list-inline-item"> <img
+                  src="https://www.pizzahut.co.in/_next/static/static/images/social/white-instagram.cf20de72a775ca841c887ea845457fa0.png"
+                  width="20px" height=> </li>
+              <li class="list-inline-item"> <img
+                  src="https://www.pizzahut.co.in/_next/static/static/images/social/white-youtube.c5d3435334b39f9535c1eeb639938a30.png"
+                  width="20px" height=> </li>
+            </ul>
+          </div>
+
+          <!-- row 3 footer ends -->
+          <div class="row mt-4">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <p style="color: #78838c;font-size: 11px;text-align: center;">Order a delicious pizza on the go, anywhere,
+                anytime. Pizza Hut is happy to assist you with your home delivery.Every time you order, you get
+                a hot and fresh pizza delivered at your doorstep in less than thirty minutes.*T&C Apply.</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+
+          <!-- row 4 footer ends -->
+
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+              <p style="color: #78838c;font-size: 11px;text-align: center;">Hurry up and place your order now!© 2023
+                Pizza Hut India. <br>All rights reserved. License Number: 10017011004220</p>
+            </div>
+            <div class="col-2"></div>
+          </div>
+
+          <!-- row 5 footer ends -->
+
+        </div>
+
+      </div>
+
+      <!-- footer ends -->
+</body>
+
+</html>
